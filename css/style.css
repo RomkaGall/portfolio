@@ -596,6 +596,8 @@ button:focus {
     max-height: 100%;
     max-width: 100%;
     transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+    padding: 0 20px;
+    object-fit: contain;
 }
 
 .work_box .work_detail {
@@ -728,6 +730,10 @@ button:focus {
     transition: all 0.5s;
 }
 
+.section--works {
+    padding-top: 0;
+}
+
 
 /*===========================
         12.RESPONSIVE
@@ -772,6 +778,12 @@ button:focus {
     }
     .clip-home{
         clip-path: none;
+    }
+    .section:not(.header-bg-img){
+        padding: 60px 0;
+    }
+    .section.section--works {
+        padding-top: 0;
     }
 }
 
