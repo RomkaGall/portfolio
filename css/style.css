@@ -734,6 +734,16 @@ button:focus {
     padding-top: 0;
 }
 
+.section_shopify img {
+    display: block;
+    width: 140px;
+    margin: 0 auto 20px auto;
+}
+
+#about {
+    padding-top: 0;
+}
+
 
 /*===========================
         12.RESPONSIVE
@@ -784,6 +794,10 @@ button:focus {
     }
     .section.section--works {
         padding-top: 0;
+    }
+
+    .h5, h5 {
+        font-size: 1rem;
     }
 }
 
