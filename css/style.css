@@ -577,7 +577,7 @@ button:focus {
     height: 233px;
     overflow: hidden;
     border-radius: 5px;
-    background: rgba(160, 160, 172, 0.2);
+    background: rgba(161, 161, 161, 0.4);
 }
 
 .work_box .work_img:after {

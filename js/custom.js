@@ -73,18 +73,18 @@
     },
 
     //Magnificpop
-    KerriApp.prototype.initMagnificPopup = function() {
-        $('.img-zoom').magnificPopup({
-            type: 'image',
-            closeOnContentClick: true,
-            mainClass: 'mfp-fade',
-            gallery: {
-                enabled: true,
-                navigateByImgClick: true,
-                preload: [0, 1]
-            }
-        });
-    },
+    // KerriApp.prototype.initMagnificPopup = function() {
+    //     $('.img-zoom').magnificPopup({
+    //         type: 'image',
+    //         closeOnContentClick: true,
+    //         mainClass: 'mfp-fade',
+    //         gallery: {
+    //             enabled: true,
+    //             navigateByImgClick: true,
+    //             preload: [0, 1]
+    //         }
+    //     });
+    // },
 
     // BACK TO TOP
     KerriApp.prototype.initBackToTop = function() {
@@ -102,27 +102,27 @@
     },
 
     //Client
-    KerriApp.prototype.initTestimonial = function() {
-        $('.owl-carousel').owlCarousel({
-            loop:true,
-            nav:false,
-            items:1,
-            autoplay:true,
-            autoplayTimeout:5000,
-            autoplayHoverPause:true,
-            autoHeight: false,
-            autoHeightClass: 'owl-height'
-        })
-    }
+    // KerriApp.prototype.initTestimonial = function() {
+    //     $('.owl-carousel').owlCarousel({
+    //         loop:true,
+    //         nav:false,
+    //         items:1,
+    //         autoplay:true,
+    //         autoplayTimeout:5000,
+    //         autoplayHoverPause:true,
+    //         autoHeight: false,
+    //         autoHeightClass: 'owl-height'
+    //     })
+    // }
 
     KerriApp.prototype.init = function() {
         this.initPreLoader();
         this.initStickyMenu();
         this.initScrollspy();
         this.initWork();
-        this.initMagnificPopup();
+        // this.initMagnificPopup();
         this.initBackToTop();
-        this.initTestimonial();
+        // this.initTestimonial();
     },
     //init
     $.KerriApp = new KerriApp, $.KerriApp.Constructor = KerriApp
